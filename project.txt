@@ -1,0 +1,211 @@
+.projectSection{
+    position: relative;
+    min-height: 80vh;
+    max-height: 80vh;
+    min-width: 100%;
+    padding-top:0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-right:8px;
+}
+.projectSection h2{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(19, 17, 17);
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+
+/*project cards*/
+.cardsleft .circlephone {
+   float: left;
+    margin-top:1.5%;
+    margin-left:8px;
+    height:80px;
+    width: 80px;
+    border-style: solid;
+    border-color: rgb(12, 12, 12);
+    border-radius: 100%;
+    background-color: rgba(196, 184, 184, 0);
+  }
+  .cardsright .circlephone {
+    float: right;
+     margin-top:1.5%;
+     margin-right:8px;
+     height:80px;
+     width: 80px;
+     border-style: solid;
+     border-color: rgb(12, 12, 12);
+     border-radius: 100%;
+     background-color: rgba(196, 184, 184, 0);
+   }
+ 
+  .cardsleft {
+    float: left;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+    margin: 1.5rem auto;
+    max-width:85%;
+    min-width: 85%;
+    background-color: #dde9eb;
+  }
+  .cardsright {
+    float: right;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+    margin: 1.5rem auto;
+    max-width:85%;
+    min-width: 85%;
+    background-color: #dde9eb;
+
+  }
+  .cardsright .phone{
+    position: absolute;
+    top:35px;
+    right:35px;
+ 
+    font-size: 40px; 
+  }
+  .cardsleft .phone{
+      position: absolute;
+      top:35px;
+      left:35px;
+   
+      font-size: 40px;
+  }
+  .cardsright .circledesktop{
+    float: right;
+    margin-top: 60px;
+    margin-right:8px;
+    display: block;
+    height:80px;
+    width: 80px;
+    border-style: solid;
+    border-color: rgb(12, 12, 12);
+    border-radius: 100%;
+    background-color: rgba(196, 184, 184, 0);
+  }
+  .cardsleft .circledesktop{
+    float: left;
+    margin-top: 60px;
+    margin-left:8px;
+    display: block;
+    height:80px;
+    width: 80px;
+    border-style: solid;
+    border-color: rgb(12, 12, 12);
+    border-radius: 100%;
+    background-color: rgba(196, 184, 184, 0);
+  }
+  .cardsright .desktop{
+    position: absolute;
+    top:80px;
+    right:25px;
+    font-size: 40px;
+  }
+  
+  .cardsleft .desktop{
+    position: absolute;
+    top:80px;
+    left:25px;
+    font-size: 40px;
+  }
+  
+  .cardsright .innercard{
+    float: left;
+    padding: 1rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+    max-width:92%;
+    min-width: 92%;
+    background-color: #387986;
+  }
+  .cardsleft .innercard{
+    float: right;
+    padding: 1rem;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+    max-width:92%;
+    min-width: 92%;
+    background-color: #387986;
+  }
+/*project cards*/
+  
+  .para{
+      position: relative;
+        left:20px;
+        padding:2px;  
+        font-family: 'Montserrat', sans-serif; 
+  }
+  h5{
+      
+      padding-left:10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      color: white;
+  }
+  .relative{
+      position: relative;
+  }
+
+
+
+HTML
+
+  <section class="projectSection">
+        <div>
+            <h2 class="titlesection">Projects</h2>
+            <div class="cardsleft">
+              
+                    <div class="relative">
+                        <div class="circlephone"><i class="fas fa-mobile-alt phone"></i></div>
+                        <div class="innercard">
+                        <div class="para"> 
+                            <h4><a class="title" href="https://play.google.com/store/apps/details?id=com.tsj.disabletouch">Disable Touch</a></h4>
+                            <h5>A simple app which allows you to listen to movies or even the online classes when your phone is in your pocket without the worry of accidental touches by disabling the touch using our touch-control-panel.</h5>
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            </div>
+            <div class="cardsright">
+                <div class="relative">
+                    <div class="circlephone"><i class="fas fa-mobile-alt phone"></i></div>
+                    <div class="innercard">
+                    <div class="para"> 
+                        <h4><a class="title" href="https://play.google.com/store/apps/details?id=com.tsj.disabletouch">Voice Your Alarm</a></h4>
+                        <h5> A simple app which allows you to wake up to your favorite voices of your friends,family and even your role-models.</h5>     
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardsleft">
+                <div class="relative">
+                    <div class="circledesktop"><i class="fas fa-desktop desktop"></i></div>
+                    <div class="innercard">
+                    <div class="para"> 
+                        <h4><a class="title" href="https://github.com/jodtribhu/OCRRecognitionBill">Coupon Validation System</a></h4>
+                        <h5>A web application where the customers can enter their invoices to apply for coupons which can be used to avail discounts. It uses Optical Character Recognition API to read the text content of the invoice image which is uploaded by the customer and it will compare this content with the data entered by the user.Depending upon the accuracy of data entered the application will assign a score.This score ease the process of validation for the coupon provider.It also provides validation to check for duplicate entries.</h5>     
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cardsright">
+                <div class="relative">
+                    <div class="circledesktop"><i class="fas fa-desktop desktop"></i></div>
+                    <div class="innercard">
+                    <div class="para"> 
+                        <h4><a class="title" href="https://github.com/jodtribhu/OCRRecognitionBill">Profile Builder</a></h4>
+                        <h5>A web application where the customers can enter their invoices to apply for coupons which can be used to avail discounts. It uses Optical Character Recognition API to read the text content of the invoice image which is uploaded by the customer and it will compare this content with the data entered by the user.Depending upon the accuracy of data entered the application will assign a score.This score ease the process of validation for the coupon provider.It also provides validation to check for duplicate entries.</h5>     
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>  
